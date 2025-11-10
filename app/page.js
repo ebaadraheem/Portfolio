@@ -431,7 +431,7 @@ export default function Home() {
                 <div className="absolute bottom-0 left-0 w-full px-6 py-4 flex justify-between">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1tRQ_idhsPCoLgQvC7HF3GdWxUgDMKVs3/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1_-zATl_JNZKY9KPhvew5SdiCtvu51vVh/view?usp=drivesdk"
                     className="text-green-400 transition-all hover:text-green-600"
                   >
                     Download APK
