@@ -32,7 +32,7 @@ export default function Home() {
   const isSkillMorphVisible = isVisible;
   const isOtherVisible = isVisible;
 
-  // --- New SnapMart Project Card Content ---
+  // --- SnapMart Project Card Content ---
   const SnapMartCard = (
     <motion.div
       className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow relative"
@@ -135,10 +135,11 @@ export default function Home() {
         <h2 className="text-xl font-bold mb-2 text-green-400">Key AI & Architectural Features:</h2>
         <ul className="list-disc pl-6 mb-4">
           <li className="mb-2">
-            <strong className=" ">Intelligent AI Assistant:</strong> Deployed a powerful conversational agent built using LangGraph (Node.js) to handle complex, multi-step queries about the course catalog, pricing, and availability.
+            <strong className=" ">Intelligent AI Assistant:</strong> Deployed a powerful conversational agent built using **LangGraph** (Node.js) to handle complex, multi-step queries about the course catalog, pricing, and availability.
           </li>
           <li className="mb-2">
-            <strong className=" ">Tool-Calling & Data Synthesis:</strong> The AI utilizes Function/Tool Calling to query the live PostgreSQL database (via REST APIs) for accurate course information, demonstrating expertise in productionizing AI agents that require external data.           </li>
+            <strong className=" ">Tool-Calling & Data Synthesis:</strong> The AI utilizes Function/Tool Calling to query the live **PostgreSQL** database (via REST APIs) for accurate course information, demonstrating expertise in productionizing AI agents that require external data. 
+          </li>
           <li className="mb-2">
             <strong className=" ">Advanced FinTech Integration:</strong> Implemented Stripe Connect to manage secure platform-to-seller payments, instructor onboarding, and automated revenue payouts.
           </li>
@@ -198,15 +199,15 @@ export default function Home() {
       <div className="bg-black text-white min-h-screen">
         <Navbar />
         <main>
-          {/* Introduction Section (Revised) */}
+          {/* Introduction Section */}
           <section className="flex flex-col mt-6 sm:mt-10 p-2  items-center justify-center min-h-[70vh]">
             <h1 className="text-4xl md:text-6xl font-bold text-center">
               Hello, I am <span className="text-green-400">Ebaad Raheem</span>,
               a{" "}
               <span className="text-green-400">
-                Cloud-Focused Full-Stack Engineer
+                AI Architect & Full-Stack Engineer
               </span>{" "}
-              specializing in scalable web and mobile solutions and
+              specializing in building <strong>Agentic Systems</strong> and
               high-performance <strong>Modern Cloud Architectures</strong>.
             </h1>
             <motion.div
@@ -247,7 +248,7 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1600px] gap-6 ">
               
-              {/*Project 1 - SkillMorph*/}
+              {/* Project 1 - SkillMorph */}
               {SkillMorphCard}
 
               {/* Project 2 - SnapMart */}
@@ -353,7 +354,7 @@ export default function Home() {
                 </div>
               </motion.div>
 
-              {/* Project 5 (RecipeApp) */}
+              {/* Project 4 (RecipeApp) */}
               <motion.div
                 className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow relative"
                 initial={{ opacity: 0, y: 50 }}
