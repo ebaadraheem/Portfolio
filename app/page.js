@@ -123,43 +123,35 @@ export default function Home() {
       transition={{ duration: 0.6, delay: 0.4 }}
     >
       <h3 className="text-xl font-semibold mb-2 text-green-400">
-        SkillMorph (Course Platform with Multi-Party Payments)
+        SkillMorph: AI-Powered Course Platform & Agent Architecture
       </h3>
       <div className="text-gray-300 pb-4 mb-4">
         <p className="text-lg mb-4">
-          SkillMorph is a full-stack course creation and selling platform
-          designed for instructors and learners. It allows educators to create
-          courses, upload lectures, and receive payments directly while users
-          can enroll and access content across devices.
+          SkillMorph is an advanced e-learning platform integrating a specialized 
+          AI conversational agent with a transactional backend, showcasing 
+          expertise in AI orchestration, secure payments, and scalable data management.
         </p>
 
-        <h2 className="text-xl font-bold mb-2 text-green-400">Key Features:</h2>
+        <h2 className="text-xl font-bold mb-2 text-green-400">Key AI & Architectural Features:</h2>
         <ul className="list-disc pl-6 mb-4">
           <li className="mb-2">
-            <strong className=" ">Advanced Payment Flow:</strong> Implemented
-            Stripe Connect to facilitate secure platform-to-seller payments,
-            handling user onboarding, custom accounts, and automated payouts for
-            instructors.
+            <strong className=" ">Intelligent AI Assistant:</strong> Deployed a powerful conversational agent built using **LangGraph** (Node.js) to handle complex, multi-step queries about the course catalog, pricing, and availability.
           </li>
           <li className="mb-2">
-            <strong className=" ">Instructor Dashboard:</strong> Create courses,
-            upload lectures, and monitor enrollments through a user-friendly
-            dashboard.
+            <strong className=" ">Tool-Calling & Data Synthesis:</strong> The AI utilizes **Function/Tool Calling** to query the live **PostgreSQL** database (via REST APIs) for accurate course information, demonstrating expertise in productionizing AI agents that require external data.           </li>
+          <li className="mb-2">
+            <strong className=" ">Advanced FinTech Integration:</strong> Implemented **Stripe Connect** to manage secure platform-to-seller payments, instructor onboarding, and automated revenue payouts.
           </li>
           <li className="mb-2">
-            <strong className="">Custom Authentication:</strong> Built from
-            scratch login and signup system with robust session handling.
+            <strong className="">Full-Stack Core:</strong> Built the Instructor Dashboard, lecture management system, and custom authentication on **React/Node.js/PostgreSQL**.
           </li>
         </ul>
 
         <h2 className="text-xl font-bold mb-2 text-green-400">Tech Stack:</h2>
         <ul className="list-disc pl-6 mb-4">
           <li className="mb-2">PostgreSQL, Express.js, React, Node.js</li>
-          <li className="mb-2">Stripe API (Connected Accounts), Zustand</li>
-          <li className="mb-2">
-            Cloudinary for media storage, Tailwind CSS for consistent, modern UI
-            design
-          </li>
+          <li className="mb-2">**LangGraph, Google Gemini API (Agent Orchestration)**</li>
+          <li className="mb-2">Stripe API (Connected Accounts), Zustand, Cloudinary</li>
         </ul>
         <h2 className="text-xl font-bold mb-2 text-green-400">
           Testing Account
