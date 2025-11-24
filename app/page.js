@@ -218,10 +218,9 @@ export default function Home() {
             >
               <p className="  p-4">
                 My focus is on engineering robust and resilient applications,
-                proven by delivering complex solutions like automated
-                <strong> serverless processes</strong> and secure implementation
-                of
-                <strong> transaction systems</strong>.
+                proven by delivering complex solutions like the design of <strong>AI agents
+                for data synthesis</strong>, <strong>serverless microservices</strong>, and secure
+                implementation of <strong>transaction systems</strong>.
               </p>
             </motion.div>
             <motion.a
