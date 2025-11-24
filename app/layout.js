@@ -4,9 +4,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Azure Cloud and Full-Stack Developer Portfolio",
+  title: "AI Architect & Cloud-Certified Full-Stack Engineer | LangGraph & Next.js",
   description:
-    "AZ-204 Certified Full-Stack Developer specializing in MERN, Next.js, and complex cloud architecture. Expertise in Azure Functions, CosmosDB, Container Apps, and Stripe payments (Connect/API). Showcasing projects that highlight skills in building scalable, secure, and efficient applications on Azure cloud platform.",
+    "AZ-204 Certified Full-Stack Engineer specializing in AI/LLM Integration (LangGraph/Gemini), Next.js, and complex cloud architecture. Expertise includes serverless logic (Azure Functions), Container Apps, and multi-party payment systems.",
 };
 export default function RootLayout({ children }) {
   return (
