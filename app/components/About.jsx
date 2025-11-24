@@ -36,15 +36,14 @@ const About = () => {
         animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
         transition={{ duration: 0.6 }}
       >
-        I am a highly versatile Full-Stack Engineer specializing in
-        high-performance web and mobile solutions, certified with <strong>Azure
-        AZ-204: Developing Solutions for Microsoft Azure</strong>. My core expertise
-        spans the <strong>MERN stack</strong>, <strong>Next.js</strong>, and complex cloud-native
-        development. I focus on scalable architectures, utilizing services like
-        <strong> Azure Functions</strong> for serverless logic, and I am proficient with
-        diverse databases including <strong>MongoDB</strong> and <strong>PostgreSQL</strong>. I integrate
-        advanced transaction systems like <strong>Stripe</strong> and build responsive mobile
-        applications using <strong>React Native</strong>.
+        I am a highly versatile Full-Stack Engineer specializing in 
+        <strong>AI/LLM Integration</strong> and high-performance solutions. I am certified with <strong>Azure 
+        AZ-204: Developing Solutions for Microsoft Azure</strong> and hold a <strong>Machine Learning 
+        Specialization</strong>, demonstrating expertise in both cloud architecture and data 
+        systems. My core proficiency spans the <strong>MERN stack</strong>, <strong>Next.js</strong>, and 
+        building AI agents (LangGraph). I focus on scalable architectures, utilize 
+        services like <strong>Azure Functions</strong> for serverless logic, and am proficient with 
+        diverse databases including <strong>PostgreSQL</strong>.
       </motion.p>
       <h2 className="text-3xl md:text-4xl font-bold my-4">Skills and Tools</h2>
 
