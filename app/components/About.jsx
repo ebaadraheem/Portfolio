@@ -37,7 +37,7 @@ const About = () => {
         transition={{ duration: 0.6 }}
       >
         I am a highly versatile Full-Stack Engineer specializing in 
-        <strong>AI/LLM Integration</strong> and high-performance solutions. I am certified with <strong>Azure 
+        <strong> AI/LLM Integration</strong> and high-performance solutions. I am certified with <strong>Azure 
         AZ-204: Developing Solutions for Microsoft Azure</strong> and hold a <strong>Machine Learning 
         Specialization</strong>, demonstrating expertise in both cloud architecture and data 
         systems. My core proficiency spans the <strong>MERN stack</strong>, <strong>Next.js</strong>, and 
