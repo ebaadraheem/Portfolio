@@ -135,10 +135,10 @@ export default function Home() {
         <h2 className="text-xl font-bold mb-2 text-green-400">Key AI & Architectural Features:</h2>
         <ul className="list-disc pl-6 mb-4">
           <li className="mb-2">
-            <strong className=" ">Intelligent AI Assistant:</strong> Deployed a powerful conversational agent built using **LangGraph** (Node.js) to handle complex, multi-step queries about the course catalog, pricing, and availability.
+            <strong className=" ">Intelligent AI Assistant:</strong> Deployed a powerful conversational agent built using LangGraph (Node.js) to handle complex, multi-step queries about the course catalog, pricing, and availability.
           </li>
           <li className="mb-2">
-            <strong className=" ">Tool-Calling & Data Synthesis:</strong> The AI utilizes Function/Tool Calling to query the live **PostgreSQL** database (via REST APIs) for accurate course information, demonstrating expertise in productionizing AI agents that require external data. 
+            <strong className=" ">Tool-Calling & Data Synthesis:</strong> The AI utilizes Function/Tool Calling to query the live PostgreSQL database (via REST APIs) for accurate course information, demonstrating expertise in productionizing AI agents that require external data. 
           </li>
           <li className="mb-2">
             <strong className=" ">Advanced FinTech Integration:</strong> Implemented Stripe Connect to manage secure platform-to-seller payments, instructor onboarding, and automated revenue payouts.
@@ -203,7 +203,7 @@ export default function Home() {
           <section className="flex flex-col mt-6 sm:mt-10 p-2  items-center justify-center min-h-[70vh]">
             <h1 className="text-4xl md:text-6xl font-bold text-center">
               Hello, I am <span className="text-green-400">Ebaad Raheem</span>,
-              a{" "}
+              an{" "}
               <span className="text-green-400">
                 AI Architect & Full-Stack Engineer
               </span>{" "}
