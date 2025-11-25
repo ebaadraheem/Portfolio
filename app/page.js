@@ -205,7 +205,7 @@ export default function Home() {
               Hello, I am <span className="text-green-400">Ebaad Raheem</span>,
               an{" "}
               <span className="text-green-400">
-                AI Architect & Full-Stack Engineer
+                AI Focused Full-Stack Engineer
               </span>{" "}
               specializing in building <strong>Agentic Systems</strong> and
               high-performance <strong>Modern Cloud Architectures</strong>.
